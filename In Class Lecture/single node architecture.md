@@ -14,3 +14,5 @@ When data needs to be loaded again, traditional data mining algorithms often ret
 ## Optimization through Parallel Processing
 
 To address this challenge, parallel processing is employed. By distributing the data across multiple disks and CPUs, the workload is significantly reduced. For example, using 4 million CPUs to read the data concurrently would shorten the time to around 4000 seconds, approximately one hour. This approach enhances efficiency by harnessing the power of parallelism in data processing.
+
+

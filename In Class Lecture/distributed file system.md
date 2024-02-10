@@ -2,6 +2,8 @@
 
 Distributed File Systems, exemplified by Google's GFS and Hadoop's HDFS, offer a global file namespace with a focus on redundancy and availability.
 
+A distributed file system (DFS) is a file system that enables clients to access file storage from multiple hosts through a computer network as if the user was accessing local storage similar to [[cluster architecture]] . Files are spread across multiple storage servers and in multiple locations, which enables users to share data and storage resources. A DFS can be designed so geographically distributed users, such as remote workers and distributed teams, can access and share files remotely as if they were stored locally.
+
 ### Typical Usage Pattern
 
 - **File Size:** Typically used for large files ranging from hundreds of gigabytes to terabytes.
