@@ -1,0 +1,46 @@
+
+
+# The Problem of Clustering 
+given  a set of many points , which the notation of distince between nodes , group the points into some number of clusters , so that : 
+- Members of the same clusters  are close similar to each other 
+- members of different cluster are dissimilar 
+usually : 
+- Points are in high dimensional  space 
+- Similarity is defined using a distince measure 
+	- [[Math Formula#distance equation]]
+# Clustering  Strategies  
+
+## Two group of methods
+## [[Hierarchical]]
+## Point assignment : 
+[[Point assignment]] Maintain a set of clusters Points belong to the "nearest" cluster 
+## Is the space Euclidean or non Euclidean 
+### Euclidean 
+- Points are vectors of a real numbers , i.e coordinates 
+- summarize or give a label or id of points in a cluster as their average name centroid  
+$$(\frac{x_1 +  x_2  + ... + x_y}{n} ,\frac{y_1 +  y_2  + ... + y_y}{n}  )$$
+Different type of distance measure used : 
+L2 norm (Mahata distance) :  $\sqrt{(x_1 - x_2)^{2} -  (y_1 - y_2)^{2}}$
+L1 norm  : $|x_1  -x_2| +|y_1  -y_2|$ 
+
+### non Euclidean 
+There is no notion of location , and centroid  
+We summarize a collection of points diffrently 
+Distance measure  Jaccard, Hamming, cosine
+## Does the data fit in memory or does it reside on disk 
+In-memory clustering
+is more straightforward 
+Example: K-means § Large-data clustering requires loading one batch of data at a time, cluster them in memory and keep summaries of clusters § Example: BFR, CURE
+
+
+# Hierarchical vs point  assignments 
+
+Point assignment good when clusters are nice, convex shapes:  
+![[disafdsfds.PNG]]
+Hierarchical can win when shapes are weird: § Note both clusters have essentially the same centroid.
+![[eulice.PNG]]
+
+
+
+
+

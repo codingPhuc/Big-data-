@@ -7,26 +7,11 @@
       "key": "B"
     }
   ],
-  "table-editor-obsidian:next-cell": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Tab"
-    }
-  ],
-  "table-editor-obsidian:insert-row": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "R"
-    }
-  ],
   "editor:insert-table": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "A"
     }

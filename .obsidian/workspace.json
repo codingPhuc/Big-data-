@@ -1,22 +1,69 @@
 {
   "main": {
-    "id": "f221c48c9fb2b9b9",
+    "id": "4df6f778535cd874",
     "type": "split",
     "children": [
       {
-        "id": "26516c27a876af25",
+        "id": "867871de6a41bdd7",
         "type": "tabs",
+        "dimension": 46.867411364740164,
         "children": [
           {
-            "id": "3245a3ef12142f58",
+            "id": "7eaa92121093c964",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "In Class Lecture/05-clustering.pdf"
+              }
+            }
+          },
+          {
+            "id": "8f2ba8c62b187f74",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "3bb6a4b4f166c646",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily note/2024-02-09.md",
+                "file": "K-Means.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "359c70e75f18ffd6",
+        "type": "tabs",
+        "dimension": 53.132588635259836,
+        "children": [
+          {
+            "id": "5589aebb967e57c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily note/2024-03-27.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da1b86e3b092123f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +72,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ddc0388a4d0cddbd",
+    "id": "c5cdfaf36cfd84a4",
     "type": "split",
     "children": [
       {
-        "id": "76c9c61b0c11943b",
+        "id": "268b898447234d1b",
         "type": "tabs",
         "children": [
           {
-            "id": "b26d8c295275eda1",
+            "id": "a77940374fbd07ba",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +90,7 @@
             }
           },
           {
-            "id": "f26ecc953672e081",
+            "id": "16eaf70bda795bd8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,11 +105,21 @@
             }
           },
           {
-            "id": "717c497d188f0980",
+            "id": "da242480221ee5ca",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
+            }
+          },
+          {
+            "id": "12f08cd1afe1277b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "In Class Lecture/05-clustering.pdf"
+              }
             }
           }
         ]
@@ -72,20 +129,19 @@
     "width": 200
   },
   "right": {
-    "id": "1a79fa34bb542372",
+    "id": "67622860fecac025",
     "type": "split",
     "children": [
       {
-        "id": "24ae126dbb2cff76",
+        "id": "9ba8d9a9d5dded5c",
         "type": "tabs",
         "children": [
           {
-            "id": "0ba2d34d780dd67f",
+            "id": "2706e43b58d88b73",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily note/2024-02-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +153,18 @@
             }
           },
           {
-            "id": "9a063192656630d3",
+            "id": "bc5e08804f6b3eae",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily note/2024-02-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "20e657c6c4c6ab45",
+            "id": "8f45b2dc665677ea",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,25 +175,14 @@
             }
           },
           {
-            "id": "1d4a738bd395174c",
+            "id": "b3924e27bf1215d8",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "daily note/2024-02-09.md"
-              }
-            }
-          },
-          {
-            "id": "6e30e0a9097af3d5",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -156,89 +200,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "549a82650380a726",
-    "type": "floating",
-    "children": [
-      {
-        "id": "94484eaccd4f9ebb",
-        "type": "window",
-        "children": [
-          {
-            "id": "4e61edc1c6d9ad8e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "227503ca39be93c4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Hadoop.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 960,
-        "y": 0,
-        "width": 960,
-        "height": 1040,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "3245a3ef12142f58",
+  "active": "8f2ba8c62b187f74",
   "lastOpenFiles": [
-    "Hadoop.md",
-    "daily note/2024-02-09.md",
-    "Storage Scaling.md",
-    "In Class Lecture/cluster architecture.md",
-    "In Class Lecture/MapReduce.md",
-    "picture/arhichtecture HBase.PNG",
-    "picture/HBase.PNG",
-    "picture/HIVE.PNG",
-    "picture/file node architecture.PNG",
-    "picture/repittion.PNG",
-    "picture/node in HDFS.PNG",
-    "picture/node primary node.PNG",
-    "picture/blocksize.PNG",
-    "picture/hadoop Ecosystem framwork.PNG",
-    "picture/mapreduce2.PNG",
-    "In Class Lecture/Spark Hadoop.md",
+    "HBase.md",
+    "Hierarchical.md",
+    "daily note/2024-03-27.md",
+    "BFR.md",
+    "K-Means.md",
+    "In Class Lecture/05-clustering.pdf",
+    "A priori.md",
+    "Big Data Definition.md",
+    "picture/7picture3.jpg",
+    "picture/~syncthing~7picture3.jpg.tmp",
+    "picture/7-picture2.jpg",
+    "picture/7-picture1.jpg",
+    "picture/20240306_170311.jpg",
+    "picture/20240306_163409.jpg",
+    "picture/20240327_161736.jpg",
+    "picture/20240306_174232.jpg",
+    "picture/20240306_163745.jpg",
+    "picture/20240327_174727.jpg",
+    "picture/20240327_174752.jpg",
+    "picture/~syncthing~20240306_174232.jpg.tmp",
+    "picture/~syncthing~20240306_170311.jpg.tmp",
+    "picture/~syncthing~20240327_161736.jpg.tmp",
+    "picture/~syncthing~20240306_163409.jpg.tmp",
+    "picture/~syncthing~20240327_174752.jpg.tmp",
+    "picture/~syncthing~20240306_163745.jpg.tmp",
+    "picture/~syncthing~20240327_174727.jpg.tmp",
+    "picture/~syncthing~20240306_163459.jpg.tmp",
     "In Class Lecture/Big Data Course.md",
-    "In Class Lecture/distributed file system.md",
-    "In Class Lecture/single node architecture.md",
-    "In Class Lecture/Data Mining.md",
-    "key tooling categories.md",
-    "daily note/2024-02-08.md",
-    "vertical Scaling.md",
-    "parallel processing.md",
-    "Linear processing.md",
-    "IOT.md",
-    "daily note/2024-01-17.md",
-    "In Class Lecture/Actionable Data.md",
-    "In Class Lecture",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "daily note/2024-02-07.md",
-    "Untitled.md",
-    "daily note/2024-01-24.md",
-    "daily note/2024-01-23.md",
-    "daily note/2024-01-19.md",
-    "code/code.py",
-    "code",
-    "exercise/PySpark_SQL_Cheat_Sheet.pdf",
-    "exercise/PySpark_RDD_Cheat_Sheet.pdf",
-    "daily note",
-    "books",
-    "picture",
-    "New folder",
-    "books/book.pdf"
+    "PCY.md",
+    "Finding Similar Documents.md",
+    "Clustering.md",
+    "Math Formula.md",
+    "Point assignment.md",
+    "daily note/2024-03-13.md"
   ]
 }

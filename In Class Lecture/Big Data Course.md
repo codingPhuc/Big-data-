@@ -104,5 +104,18 @@ Storage infrastructure  (file system  là nơi lưu trữ thao túng xử lý t�
 ## different type of file system
 A [[distributed file system ]] is a file system that enables clients to access file storage from multiple hosts through a computer network as if the user was accessing local storage. Files are spread across multiple storage servers and in multiple locations, which enables users to share data and storage resources. A DFS can be designed so geographically distributed users, such as remote workers and distributed teams, can access and share files remotely as if they were stored locally.
 
+# Definition In Big Data 
+[[Big Data Definition]] help client and people that are framilier with big data too understand  key word and task without the need to have a long sentence 
+
+
+
+# Algorithm 
+Algorithm in big data help to identify and solve complex problem  : 
+- [[PCY]]
+- [[A priori]]
+- [[Finding Similar Documents]]
+- [[Clustering]]
+#Exam 
+[test](https://knowt.com/flashcards/25c41b9f-21e2-4b8e-a131-847c37e9587e) 
 
 

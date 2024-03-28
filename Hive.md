@@ -29,7 +29,7 @@ RDBMS is designed for a relational database.
 | enforces that the schema must  verify loading data before it can be proceed | Doesn't enforce the scheam to verify loading data |
 | May not alway have built in for support data partitioning | support partitioning |
 
-![[arhichtecture HBase.PNG]]
+![[HIVE.PNG]]
 The architecture of Hive comprises three main parts:
 
 1. **Communication Drivers:**

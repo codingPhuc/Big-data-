@@ -14,7 +14,7 @@ Hadoop is an open-source framework used to process enormous data sets
 Hadoop is a set of open source programs and procedure 
 used  for processing large amount of data 
 server run application on [[cluster architecture]]
-Handle parallel jobs or processes 
+Handle [[parallel processing]] or processes 
 ## Why Hadoop ? 
 Hadoop was designed to  help organization manage terabytes of data
 used to process unstructured data combine with  relational Data 
@@ -43,12 +43,8 @@ Intensive calculation with little data
 
 # Hadoop Ecosystem 
 
-
+__Hadoop Ecosystem__ is a platform or a suite which provides various services to solve the big data problems. It includes Apache projects and various commercial tools and solutions. There are __four major elements of Hadoop__ i.e. ***HDFS, MapReduce, YARN, and Hadoop Common Utilities****. Most of the tools or solutions are used to supplement or support these major elements. All these tools work collectively to provide services such as absorption, analysis, storage and maintenance of data etc.
 ![[hadoop Ecosystem framwork.PNG]]
-- Flume and Sqoop  are responsible for ichesting the data and tranfer them the hdfs and HBase
-- the go to Pib and Hive for analyazing the data 
-Certainly! Let’s correct any misspelled words in your description of Big Data processing stages. Here’s the revised version:
-
 ### Ingesting
 
 Ingesting is the first stage of Big Data processing. When dealing with big data, you collect data from different sources. Let’s explore two key tools for data ingestion:
@@ -95,8 +91,8 @@ Finally, let’s explore data access tools:
     - It provides an editor for server SQL query languages like Hive and MySQL.
 
 
-
-
+Hadoop [cheat sheet](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTS1CRDAyMjVFTi1Ta2lsbHNOZXR3b3JrL2xhYnMvTW9kdWxlMi9DaGVhdF9TaGVldC9JbnRyb2R1Y3Rpb25fdG9fdGhlX0hhZG9vcF9FY29zeXN0ZW0ubWQiLCJ0b29sX3R5cGUiOiJpbnN0cnVjdGlvbmFsLWxhYiIsImFkbWluIjpmYWxzZSwiaWF0IjoxNzAwNjc1MDkwfQ.LeDHZRzRDl0Ddt2jgpmaM1ZuoIe7-OJiymnLmaZ6k_Q)
+Hadoop [ fundamental cheat sheet ](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTS1CRDAyMjVFTi1Ta2lsbHNOZXR3b3JrL2xhYnMvTW9kdWxlMi9HbG9zc2FyeS9JbnRyb2R1Y3Rpb25fdG9fSGFkb29wX0Vjb3N5c3RlbS5tZCIsInRvb2xfdHlwZSI6Imluc3RydWN0aW9uYWwtbGFiIiwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3MDA2NzUwMTF9.7QefhIh1_LFx0owUfvATTvm8eKdbwKklhz8EwqQWuzI)
 
 
 

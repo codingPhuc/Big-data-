@@ -1,7 +1,6 @@
 ## Analytics an Visualization 
 Big data analytics examine  large amount of data 
 analyzed data is visualized using graph , chart and maps 
-
 Popular analytics tools available are Tableau , Palantir , SAS , Pentaho , and Teradata 
 ## Business Intelligence 
 Business intelligence (BI) offers a range of tools that provide quick and easy way to transform data into actionable insights 
@@ -35,3 +34,7 @@ allow enterprises to capture , process and share data that is in  any scale and 
 work with structured and unstructured data 
 leverage higher  performance , parallel big data processing 
 key technology include [[Hadoop]] , HDFS , Spark ,[[MapReduce]] 
+
+
+#Exam 
+[test](https://knowt.com/flashcards/33ea8f3e-4a10-478d-b57e-8b4d96255bb1?isNew=true) 

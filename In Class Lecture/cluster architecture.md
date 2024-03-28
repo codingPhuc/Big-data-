@@ -34,3 +34,7 @@ To tackle these challenges, [[MapReduce]] offers a solution:
 - **Redundant Data Storage:** Data is stored redundantly on multiple nodes for both persistence and availability.
 - **Minimizing Data Movement:** Computation is moved close to the data, reducing the need for extensive data movement.
 - **Simple Programming Model:** MapReduce provides a straightforward programming model that abstracts away the complexities of cluster computing.
+
+
+#Exam 
+[test](https://knowt.com/flashcards/e4ff9d90-96ec-48c4-ada3-d5fc9a7e3e9e) 
