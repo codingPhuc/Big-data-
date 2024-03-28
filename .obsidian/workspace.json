@@ -21,8 +21,12 @@
             "id": "8f2ba8c62b187f74",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Hierarchical.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -114,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Hierarchical.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,6 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Hierarchical.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Hierarchical.md"
+              }
             }
           }
         ]
@@ -174,9 +182,10 @@
   },
   "active": "8f2ba8c62b187f74",
   "lastOpenFiles": [
+    "CURE.md",
+    "Hierarchical.md",
     "daily note/2024-03-27.md",
     "HBase.md",
-    "Hierarchical.md",
     "BFR.md",
     "K-Means.md",
     "In Class Lecture/05-clustering.pdf",
