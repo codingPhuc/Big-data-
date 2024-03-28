@@ -1,3 +1,5 @@
+
+belong to the [[Clustering#Point assignment]] [[Euclidean]]
 **K-Means Clustering:** K-Means is a basic algorithm used in machine learning for cluster analysis. In this method, data is represented as vectors in Euclidean space, and the Euclidean distance is used to measure the distance between data points.
 
 **Representation of a Cluster in Euclidean Space:**
@@ -15,9 +17,3 @@
     - After assignment, update the centroids.
 
 K-Means is suitable for data where the clusters are convex in shape.
-
-**Choosing K in K-Means:** To evaluate the quality of the clustering, we look at the average distance of the data points to their respective centroids. This helps in determining the optimal number of clusters (k). 
-
-![[7-picture1.jpg]]
-- the chart show that the number 
--  $avg  = \frac{1}{N} *\sum^{N}_{i}{d(X_i , C_i)}$ 

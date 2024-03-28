@@ -1,3 +1,4 @@
+belong to the [[Clustering#Point assignment]] [[Euclidean]] 
 **BFR (Bradley-Fayyad-Reina) Algorithm:** BFR is an advanced version of the K-Means algorithm designed for large datasets and convex clusters. It is more efficient than K-Means for handling large data.
 
 **Input Requirements:**
