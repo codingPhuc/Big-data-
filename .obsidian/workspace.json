@@ -6,7 +6,6 @@
       {
         "id": "867871de6a41bdd7",
         "type": "tabs",
-        "dimension": 46.867411364740164,
         "children": [
           {
             "id": "7eaa92121093c964",
@@ -40,33 +39,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "359c70e75f18ffd6",
-        "type": "tabs",
-        "dimension": 53.132588635259836,
-        "children": [
-          {
-            "id": "5589aebb967e57c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily note/2024-03-27.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da1b86e3b092123f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -202,9 +174,9 @@
   },
   "active": "8f2ba8c62b187f74",
   "lastOpenFiles": [
+    "daily note/2024-03-27.md",
     "HBase.md",
     "Hierarchical.md",
-    "daily note/2024-03-27.md",
     "BFR.md",
     "K-Means.md",
     "In Class Lecture/05-clustering.pdf",
