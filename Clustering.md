@@ -39,9 +39,11 @@ There is no notion of location , and centroid
 We summarize a collection of points different  
 Distance measure  Jaccard, Hamming, cosine
 # Does the data fit in memory or does it reside on disk 
-In-memory clustering
-is more straightforward 
-Example: K-means § Large-data clustering requires loading one batch of data at a time, cluster them in memory and keep summaries of clusters § Example: BFR, CURE
+In-memory clustering is more straightforward 
+Example: [[K-Means]] 
+Large-data clustering
+requires loading one batch of data at a time, cluster them in memory and keep summaries of clusters 
+Example: [[BFR]], [[CURE]]
 
 
 # Hierarchical vs point  assignments 
@@ -60,22 +62,6 @@ When stopping criterion is met
 -  Stop if merging clusters yields a bad cluster § E.g., diameter suddenly jumps
 Keep merging until there is only 1 cluster left
 
-
-# which design choice is the best 
-It really depends on the shape of clusters. 
-§ Which you may not know in advance. 
-Example: we’ll compare two approaches: 
-1. Merge clusters with smallest distance between centroids (or clustroids for non-Euclidean) 
-2. Merge clusters with the smallest distance between two points, one from each cluster
-## Case 1 : Convex Clusters 
-Centroid-based merging works well. 
-But merger based on closest members might accidentally merge incorrectly.
-![[convd.PNG]]
-## Case 2 : Concentric Clusters 
-
-Linking based on closest members works well ¡ 
-But Centroid-based linking might cause errors
-![[circle.PNG]]
 
 
 # Choosing K mean 

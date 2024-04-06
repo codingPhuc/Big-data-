@@ -4,31 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "25c17bbb42836c4b",
+        "id": "2d55b183e222789d",
         "type": "tabs",
         "children": [
           {
-            "id": "9561e111aabcb5ab",
+            "id": "579afa94138ab366",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "In Class Lecture/05-clustering.pdf"
+                "file": "Finding Similar Documents.md",
+                "mode": "source",
+                "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "fe468f8595117c75",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "c10f335569a0c16f",
+            "id": "8ceb7866cd0820b1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "picture/20240306_170311.jpg"
+              }
+            }
+          },
+          {
+            "id": "64af2ce9c6ce46d6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "picture/20240306_170311.jpg"
+              }
             }
           }
         ]
@@ -107,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Finding Similar Documents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Finding Similar Documents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +154,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Finding Similar Documents.md"
+              }
             }
           }
         ]
@@ -165,45 +177,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c10f335569a0c16f",
+  "active": "579afa94138ab366",
   "lastOpenFiles": [
+    "picture/20240306_170311.jpg",
+    "Finding Similar Documents.md",
+    "In Class Lecture/03-lsh.pdf",
+    "Pasted image 20240405175055.png",
+    "picture/bandhash.PNG",
+    "In Class Lecture/02-assocrules.pdf",
+    "daily note/2024-04-05.md",
+    "daily note/2024-04-03.md",
+    "Pasted image 20240405114307.png",
+    "picture/minhashfunction_2.PNG",
+    "picture/minhashfunction_1.PNG",
+    "In Class Lecture/04-lsh_theory.pdf",
+    "picture/20240306_163409.jpg",
+    "picture/036f4519-8d2a-46f6-bea8-92ae07adcb59.png",
+    "daily note/2024-03-06.md",
     "In Class Lecture/05-clustering.pdf",
+    "In Class Lecture/06-dim_red.pdf",
+    "picture/Pasted image 20240302093956.png",
+    "In Class Lecture/Big Data Course.md",
+    "cur1.md",
+    "picture/Cur3.jpg",
+    "picture/Cur2.jpg",
+    "picture/~syncthing~Cur3.jpg.tmp",
+    "picture/~syncthing~Cur5.jpg.tmp",
+    "picture/~syncthing~Cur2.jpg.tmp",
+    "picture/~syncthing~Cur4.jpg.tmp",
+    "picture/~syncthing~Cur1.jpg.tmp",
+    "daily note/2024-03-02.md",
+    "table picture.md",
+    "daily note/2024-03-13.md",
+    "daily note/2024-03-27.md",
+    "Clustering.md",
+    "CURE.md",
     "non-Euclidean.md",
     "Euclidean.md",
+    "key tooling categories.md",
     "Hierarchical.md",
-    "Clustering.md",
     "K-Means.md",
     "BFR.md",
-    "CURE.md",
     "Agglomerative.md",
-    "In Class Lecture/06-dim_red.pdf",
     "Point assignment.md",
-    "daily note/2024-03-27.md",
     "HBase.md",
     "A priori.md",
     "Big Data Definition.md",
-    "picture/7picture3.jpg",
-    "picture/~syncthing~7picture3.jpg.tmp",
-    "picture/7-picture2.jpg",
-    "picture/7-picture1.jpg",
-    "picture/20240306_170311.jpg",
-    "picture/20240306_163409.jpg",
-    "picture/20240327_161736.jpg",
-    "picture/20240306_174232.jpg",
-    "picture/20240306_163745.jpg",
-    "picture/20240327_174727.jpg",
-    "picture/20240327_174752.jpg",
-    "picture/~syncthing~20240306_174232.jpg.tmp",
-    "picture/~syncthing~20240306_170311.jpg.tmp",
-    "picture/~syncthing~20240327_161736.jpg.tmp",
-    "picture/~syncthing~20240306_163409.jpg.tmp",
-    "picture/~syncthing~20240327_174752.jpg.tmp",
-    "picture/~syncthing~20240306_163745.jpg.tmp",
-    "picture/~syncthing~20240327_174727.jpg.tmp",
-    "In Class Lecture/Big Data Course.md",
     "PCY.md",
-    "Finding Similar Documents.md",
-    "Math Formula.md",
-    "daily note/2024-03-13.md"
+    "Math Formula.md"
   ]
 }
