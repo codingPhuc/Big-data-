@@ -1,0 +1,2 @@
+Spark driver  
+The Apache Spark Driver is the program that declares the SparkContext, which is responsible for converting the user program into a series of tasks that can be distributed across the cluster. It also coordinates the execution of tasks and communicates with the Cluster Manager to allocate resources for the application. In short, the Spark Driver plays a crucial role in managing the overall execution of a Spark application. 

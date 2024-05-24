@@ -203,3 +203,44 @@ Save the resulted DataFrame consisting of frequent pairs to   pcy_frequent_pairs
 
 first pass  : 
 check for frequency item 
+
+
+
+# code summary 
+
+1. **Introduction**
+   This script implements the PCY (Park-Chen-Yu) algorithm for frequent itemset mining in PySpark. The PCY algorithm is an improvement over the Apriori algorithm, using a bitmap to reduce the number of candidate itemsets.
+
+2. **Class Definition**
+   The `PCY` class is defined with attributes for the file path of the dataset, support and confidence thresholds, a dictionary mapping numbers to items, and the number of buckets for hashing.
+
+3. **Constructor**
+   The constructor method `__init__` initializes these attributes. It checks if the support and confidence values are between 0 and 1, raising a ValueError if not.
+
+4. **Reading the Dataset**
+   The `read_baskets_csv` method reads the CSV file into a DataFrame, splits the items in each basket, and calculates the actual support count. It then assigns a unique number to each distinct item in the dataset for better hashing.
+
+5. **Finding Frequent Itemsets**
+   The `f03` method implements the two passes of the PCY algorithm.
+   - **First Pass**: It counts the frequency of individual items and filters out those that are infrequent. It also generates and hashes pairs of items in each basket, storing the count of each hash bucket.
+   - **Second Pass**: It creates a bitmap where each bit represents a hash bucket, setting it to 1 if the count is greater than or equal to the support count, and 0 otherwise. It then filters the pairs of items, keeping only those where both items are frequent and the pair hashes to a frequent bucket.
+
+6. **Output**
+   The method returns a dictionary of frequent itemsets, which are then mapped back to the original item names, converted to a DataFrame, and written to a CSV file.
+
+# apori  
+![[Pasted image 20240508135035.png]]
+# PCY 
+![[Pasted image 20240508134950.png]]
+
+
+Summary  phai co  4 phan 
+
+
+
+
+pcy
+khi lam big data dung co dung dictionary 
+phan dau pcy dung flatmap hay vi sort datafram  
+dung co de variable o phan ngoai pcy  
+dung max thay vi sort khi tra lai 1 phan tu  

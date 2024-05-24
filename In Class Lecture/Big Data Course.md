@@ -40,7 +40,6 @@ Big Data
 ![[big data circle.PNG]]
 Data Collection 
 - initiated as the result of business problem 
-Data Collection
 - as data is collected , it get stored suing a framework for distributed stored 
 Data Modeling 
 - to make sense of all the data collected , [[MapReduce]] task and script created a data model to stored in a a database , this model is the relationship between the data 
@@ -108,7 +107,9 @@ A [[distributed file system ]] is a file system that enables clients to access f
 [[Big Data Definition]] help client and people that are framilier with big data too understand  key word and task without the need to have a long sentence 
 
 
-
+# Different data type in spark  
+[[rdd]]
+[[DataFrame]]
 # Algorithm 
 Algorithm in big data help to identify and solve complex problem  : 
 - [[PCY]]
@@ -118,4 +119,39 @@ Algorithm in big data help to identify and solve complex problem  :
 #Exam 
 [test](https://knowt.com/flashcards/25c41b9f-21e2-4b8e-a131-847c37e9587e) 
 
+# AWS for big data 
 
+Amazon EMR is an AWS offering for Apache Spark. It allows quick launch of Spark clusters, eliminating the need for node provisioning, cluster setup, or Spark configuration. EMR can provision varying compute instances in minutes and uses Auto Scaling to adjust Spark clusters based on data size. Costs can be reduced by committing to a set term, using Amazon EC2 Reserved Instances for up to 75% savings, or using spare AWS compute capacity (EC2 Spot) for up to 90% savings. To use Apache Spark on AWS, you need to create an account.
+
+**Node Provisioning** refers to the process of acquiring and configuring a new node in your cluster for your project (pod) to be scheduled onto This process can be automated using node auto-provisioning, which eliminates the manual step of pre-creating node pools by allowing users to add high-level requirements as constraints. It automatically determines the best machine type or available node for the workload]
+
+[On the other hand, **Cluster Setup** involves creating a group of hosts (a cluster) and managing the resources of all hosts that it contains](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.vcenterhost.doc/GUID-F7818000-26E3-4E2A-93D2-FCDCE7114508.html)[3](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.vcenterhost.doc/GUID-F7818000-26E3-4E2A-93D2-FCDCE7114508.html). [This process typically involves installing the required software on all nodes in the cluster, configuring the cluster settings, and adding the cluster to your system](https://hadoop.apache.org/docs/current1/cluster_setup.html)[4](https://hadoop.apache.org/docs/current1/cluster_setup.html). The setup process can vary depending on the specific technology or platform being used. [For example, in a Kubernetes cluster, you might need to configure containers for production traffic](https://www.redhat.com/en/resources/creating-a-kubernetes-cluster-16-steps-checklist)[5](https://www.redhat.com/en/resources/creating-a-kubernetes-cluster-16-steps-checklist)[, while in a Hadoop cluster, you might need to unpack the software on all the machines in the cluster](https://hadoop.apache.org/docs/current1/cluster_setup.html)[4](https://hadoop.apache.org/docs/current1/cluster_setup.html).
+
+Both of these processes are crucial steps in setting up a distributed computing environment like Apache Spark. They ensure that the computing resources are properly allocated and managed, allowing for efficient data processing and analysis.
+
+
+
+
+spark 2 pro  
+- driver program single process create work for the cluster 
+- executor multiple processses thougthout the cluster that can do the work  
+
+communitcate with the cluster mangaer 
+is defined in the driver driver program create work and computation that is create parrelle 
+partition  tsk can run on parrelle on the executor 
+executor is alloted a  number of cores that each run one task at a time 
+increasing executor and cores increates cluster parallelism 
+l
+
+
+stages and shuffles 
+sc are create in driver contenxt much be active for the time 
+
+driver createjob into task for different clustor  
+
+worker note is where to compute work 
+
+![[Pasted image 20240524164553.png]]![[Pasted image 20240524164610.png]]
+![[Pasted image 20240524164626.png]]![[Pasted image 20240524164641.png]]
+![[Pasted image 20240524164657.png]]
+![[Pasted image 20240524164717.png]]
