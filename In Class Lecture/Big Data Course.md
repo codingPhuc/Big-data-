@@ -131,27 +131,3 @@ Both of these processes are crucial steps in setting up a distributed computing 
 
 
 
-
-spark 2 pro  
-- driver program single process create work for the cluster 
-- executor multiple processses thougthout the cluster that can do the work  
-
-communitcate with the cluster mangaer 
-is defined in the driver driver program create work and computation that is create parrelle 
-partition  tsk can run on parrelle on the executor 
-executor is alloted a  number of cores that each run one task at a time 
-increasing executor and cores increates cluster parallelism 
-l
-
-
-stages and shuffles 
-sc are create in driver contenxt much be active for the time 
-
-driver createjob into task for different clustor  
-
-worker note is where to compute work 
-
-![[Pasted image 20240524164553.png]]![[Pasted image 20240524164610.png]]
-![[Pasted image 20240524164626.png]]![[Pasted image 20240524164641.png]]
-![[Pasted image 20240524164657.png]]
-![[Pasted image 20240524164717.png]]

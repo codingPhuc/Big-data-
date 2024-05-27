@@ -33,7 +33,7 @@ Big Data tools have six main tooling categories :
 allow enterprises to capture , process and share data that is in  any scale and in any format 
 work with structured and unstructured data 
 leverage higher  performance , parallel big data processing 
-key technology include [[Hadoop]] , HDFS , Spark ,[[MapReduce]] 
+key technology include [[Hadoop]] , HDFS , [[Spark]] ,[[MapReduce]] 
 
 
 #Exam 

@@ -1,4 +1,4 @@
-\
+
 ## DataFrames and Datasets
 
 - A Dataset is a distributed collection of data, strongly typed JVM objects.
@@ -7,7 +7,7 @@
 - Datasets work for Scala and Java, other languages do not have Datasets.
 - Benefits of Datasets:
     - Compile-time type safety.
-    - Faster computation than RDDs.
+    - Faster computation than [[rdd]].
     - Offers the benefits of Spark SQL and DataFrame.
     - Optimizes queries using Catalyst and Tungsten.
 
@@ -31,6 +31,22 @@
 - Manages memory and does not rely on the JVM object model.
 - Enables cache-friendly computation of algorithms.
 - Supports on-demand JVM bytecode generation.
+
+# different type of operation 
+## narrow  
+![[Pasted image 20240524130520.png]] 
+
+exmaple  : 
+map  
+filter 
+union
+## wide 
+ 
+![[Pasted image 20240524130527.png]]
+
+**GroupBy** 
+JOin  
+sort  
 
 ## Techniques for Optimizing Data in Spark
 

@@ -8,36 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f0165e0fe5634576",
+            "id": "a05f68178bc37591",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Big Data Definition.md",
+                "file": "daily note/2024-05-26.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "85000a42aa69aef8",
+            "id": "5d496104e295ce7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "In Class Lecture/Big Data Course.md",
+                "file": "Spark.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "9784e2613a969443",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20240524164657.png"
               }
             }
           }
@@ -71,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "spark context",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "In Class Lecture/Big Data Course.md",
+                "file": "Spark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "In Class Lecture/Big Data Course.md",
+                "file": "Spark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "In Class Lecture/Big Data Course.md"
+                "file": "Spark.md"
               }
             }
           },
@@ -188,52 +178,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "85000a42aa69aef8",
+  "active": "5d496104e295ce7b",
   "lastOpenFiles": [
-    "Pasted image 20240524164717.png",
-    "Pasted image 20240524164657.png",
-    "In Class Lecture/Big Data Course.md",
-    "Pasted image 20240524164641.png",
-    "Pasted image 20240524164626.png",
-    "Pasted image 20240524164610.png",
-    "Pasted image 20240524164553.png",
-    "Big Data Definition.md",
-    "In Class Lecture/distributed file system.md",
+    "daily note/2024-05-26.md",
+    "Pasted image 20240526123105.png",
+    "Pasted image 20240526122327.png",
+    "Pasted image 20240526122126.png",
+    "Spark.md",
+    "Pasted image 20240526103527.png",
+    "Pasted image 20240526103510.png",
+    "Pasted image 20240526103541.png",
+    "spark running environemnt.md",
     "daily note/2024-05-24.md",
-    "rdd.md",
-    "code for 20% project.md",
     "DataFrame.md",
+    "Pasted image 20240526103124.png",
+    "rdd.md",
+    "In Class Lecture/Big Data Course.md",
+    "Pasted image 20240526103609.png",
+    "Pasted image 20240526103554.png",
+    "In Class Lecture/cluster architecture.md",
+    "Clustering.md",
+    "Pasted image 20240524164657.png",
+    "driver.md",
+    "Big Data Definition.md",
+    "key tooling categories.md",
+    "daily note/2024-05-15.md",
+    "SparkContext.md",
+    "In Class Lecture/distributed file system.md",
+    "code for 20% project.md",
     "daily note/2024-02-11.md",
     "daily note/2024-02-08.md",
     "Untitled 3.md",
-    "Pasted image 20240524130527.png",
-    "Pasted image 20240524130520.png",
     "locality_sensity_hashing.md",
-    "driver.md",
-    "Pasted image 20240524104927.png",
-    "Pasted image 20240524100524.png",
-    "daily note/2024-05-15.md",
     "Untitled 2.md",
     "PCY.md",
-    "Pasted image 20240508135035.png",
     "parallel processing.md",
     "shingling.md",
     "minhashing.md",
     "signature.csv",
     "boolean.csv",
     "bucket.csv",
-    "Finding Similar Documents.md",
     "In Class Lecture/07-recsys1.pdf",
-    "Question for learning and understanding AI.md",
-    "daily note/2024-04-10.md",
-    "TFIDF.md",
     "picture/~syncthing~20240407_160630.jpg.tmp",
-    "fd.md",
     "picture/~syncthing~TFIDF.jpg.tmp",
-    "Video  FSD.md",
     "In Class Lecture/03-lsh.pdf",
     "In Class Lecture/02-assocrules.pdf",
-    "daily note/2024-04-05.md",
     "In Class Lecture/04-lsh_theory.pdf",
     "In Class Lecture/05-clustering.pdf"
   ]
